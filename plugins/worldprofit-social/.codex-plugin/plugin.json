@@ -1,0 +1,28 @@
+{
+  "name": "worldprofit-social",
+  "version": "0.1.0",
+  "description": "Create branded, image-enhanced Worldprofit posts for Facebook and X, then publish or schedule them after approval.",
+  "author": {
+    "name": "Worldprofit",
+    "url": "https://worldprofit.com"
+  },
+  "homepage": "https://worldprofit.com",
+  "repository": "https://github.com/georgekosch-glitch/worldprofit-social-plugin",
+  "keywords": ["worldprofit", "social-media", "facebook", "x", "marketing"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Worldprofit Social",
+    "shortDescription": "Create, approve, publish, and schedule branded social posts.",
+    "longDescription": "Drafts platform-specific Worldprofit posts, creates supporting images, presents an approval package, and only then publishes to Facebook and X or schedules the approved content.",
+    "developerName": "Worldprofit",
+    "category": "Marketing",
+    "capabilities": ["Content creation", "Image generation", "Approval workflow", "Scheduling"],
+    "websiteURL": "https://worldprofit.com",
+    "defaultPrompt": [
+      "Create a Worldprofit post for Facebook and X.",
+      "Prepare this campaign for approval.",
+      "Schedule my approved Worldprofit posts."
+    ],
+    "brandColor": "#F5A623"
+  }
+}
