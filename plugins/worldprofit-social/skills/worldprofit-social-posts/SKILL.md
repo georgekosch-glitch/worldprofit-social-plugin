@@ -1,6 +1,6 @@
 ---
 name: worldprofit-social-posts
-description: Create image-enhanced Worldprofit social posts for its Facebook page, X account, LinkedIn personal profile, and LinkedIn company Page, obtain explicit approval, and then publish or schedule the approved versions. Use for Worldprofit social campaigns, post drafts, content calendars, and approved posting.
+description: Create image-enhanced Worldprofit social posts for its Facebook page, X account, LinkedIn personal profile, and LinkedIn company Page, and Instagram feed, obtain explicit approval, and then publish or schedule the approved versions. Use for Worldprofit social campaigns, post drafts, content calendars, and approved posting.
 ---
 
 # Worldprofit Social Posts
@@ -20,12 +20,14 @@ Produce distinct versions rather than copying one caption verbatim:
 - Facebook: conversational, enough context to stand alone, a clear call to action, and restrained hashtag use.
 - LinkedIn personal profile: use a personal professional perspective, a useful takeaway, and a natural invitation to discuss.
 - LinkedIn company Page: use Worldprofit's brand voice, business value, and a clear call to action. Prepare a distinct caption from the personal-profile version.
+- Instagram feed: create an image-led caption with a clear opening, useful context, and restrained relevant hashtags. Include the final image crop and alt text for approval. Verify any proposed link-in-bio destination before using that call to action.
 - X: concise and immediately understandable, within the platform's current post limit, with only useful hashtags or mentions.
 
 For each campaign, prepare an approval package containing:
 
 - the exact Facebook text;
 - the exact X text;
+- the exact Instagram feed caption when requested;
 - the exact LinkedIn personal-profile and company-Page text, labeled separately when requested;
 - the final image or images and meaningful alt text;
 - destination links and any tracking parameters;
@@ -42,7 +44,7 @@ Approval for one platform or posting identity does not authorize another. Linked
 
 ## Publish now
 
-After explicit approval, use an available connected social tool when one is installed. Otherwise use browser control with the user's already authenticated Facebook, X, and LinkedIn sessions. Verify the destination account and preview immediately before submission. Stop for the user if login, multi-factor authentication, account selection, permissions, or a platform warning requires judgment.
+After explicit approval, use an available connected social tool when one is installed. Otherwise use browser control with the user's already authenticated Facebook, X, LinkedIn, and Instagram sessions. Verify the destination account and preview immediately before submission. Stop for the user if login, multi-factor authentication, account selection, permissions, or a platform warning requires judgment.
 
 After submission, confirm the visible result and report the platform, timestamp, and post URL when available. Do not repeatedly submit after an ambiguous result; inspect first to avoid duplicates.
 
@@ -59,6 +61,14 @@ Use both LinkedIn destinations by default when LinkedIn is requested, unless the
 Support both the user's personal profile and the Worldprofit company Page. Reuse confirmed destination choices; ask for the exact profile or Page URL when identity is ambiguous. Confirm the user can publish on the selected Page and verify the composer identity before any upload or submission. Never substitute the personal profile when Page publishing is unavailable. Ask the user to complete sign-in or obtain Page access when required; do not request passwords in chat or store credentials in the repository.
 
 Create and verify each LinkedIn destination independently. If one succeeds and the other fails, retain the successful post's receipt and retry only the failed destination after checking for duplicates. Do not claim a LinkedIn API connection exists: browser posting uses the signed-in session unless an available connected tool actually supports the requested action.
+
+## Instagram destination and scope
+
+Saved Instagram account: @worldprofit — https://www.instagram.com/worldprofit/
+
+Use this destination whenever Instagram is requested; do not ask for the URL again unless the user changes accounts. Scope is feed image posts only. Do not create Stories, Reels, or video posts unless the user explicitly expands scope. Default to a single image; use a carousel only when requested and approve all images and their order.
+
+Use the authenticated Instagram browser session or an available connected tool that supports feed publishing. Verify the active account is @worldprofit and inspect the feed-post preview, image crop, caption, and available alt-text controls before publishing. Check current media requirements in the publishing interface rather than assuming fixed limits. Saved account details do not establish authentication or API access. If sign-in or account access is missing, ask the user to complete it; never request credentials in chat. After posting, verify the feed post and record its URL. Apply the same explicit approval and duplicate-prevention rules as other platforms.
 
 ## Schedule
 
