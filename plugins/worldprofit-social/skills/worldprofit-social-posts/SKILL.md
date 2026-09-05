@@ -1,6 +1,6 @@
 ---
 name: worldprofit-social-posts
-description: Create image-enhanced Worldprofit social posts for its Facebook page and X account, obtain explicit approval, and then publish or schedule the approved versions. Use for Worldprofit social campaigns, post drafts, content calendars, and approved posting.
+description: Create image-enhanced Worldprofit social posts for its Facebook page, X account, LinkedIn personal profile, and LinkedIn company Page, obtain explicit approval, and then publish or schedule the approved versions. Use for Worldprofit social campaigns, post drafts, content calendars, and approved posting.
 ---
 
 # Worldprofit Social Posts
@@ -18,12 +18,15 @@ If brand assets are supplied, use them as references. When no usable visual asse
 Produce distinct versions rather than copying one caption verbatim:
 
 - Facebook: conversational, enough context to stand alone, a clear call to action, and restrained hashtag use.
+- LinkedIn personal profile: use a personal professional perspective, a useful takeaway, and a natural invitation to discuss.
+- LinkedIn company Page: use Worldprofit's brand voice, business value, and a clear call to action. Prepare a distinct caption from the personal-profile version.
 - X: concise and immediately understandable, within the platform's current post limit, with only useful hashtags or mentions.
 
 For each campaign, prepare an approval package containing:
 
 - the exact Facebook text;
 - the exact X text;
+- the exact LinkedIn personal-profile and company-Page text, labeled separately when requested;
 - the final image or images and meaningful alt text;
 - destination links and any tracking parameters;
 - the intended accounts;
@@ -35,13 +38,19 @@ Flag assumptions and claims needing verification. If the user asks for variation
 
 Drafting and image generation do not authorize publication. Before any external post, upload, queue, or scheduling action, obtain explicit approval for the exact approval package. Treat edits after approval as invalidating that approval unless they are purely mechanical platform formatting that does not change meaning; disclose any such formatting.
 
-Approval for one platform does not authorize the other. Approval for one time does not authorize a different time. Never approve content on the user's behalf.
+Approval for one platform or posting identity does not authorize another. LinkedIn personal-profile and company-Page posts require separately identified approval, which may be given together in one package. Approval for one time does not authorize a different time. Never approve content on the user's behalf.
 
 ## Publish now
 
-After explicit approval, use an available connected social tool when one is installed. Otherwise use browser control with the user's already authenticated Facebook and X sessions. Verify the destination account and preview immediately before submission. Stop for the user if login, multi-factor authentication, account selection, permissions, or a platform warning requires judgment.
+After explicit approval, use an available connected social tool when one is installed. Otherwise use browser control with the user's already authenticated Facebook, X, and LinkedIn sessions. Verify the destination account and preview immediately before submission. Stop for the user if login, multi-factor authentication, account selection, permissions, or a platform warning requires judgment.
 
 After submission, confirm the visible result and report the platform, timestamp, and post URL when available. Do not repeatedly submit after an ambiguous result; inspect first to avoid duplicates.
+
+## LinkedIn destinations
+
+Support both the user's personal profile and the Worldprofit company Page. Reuse confirmed destination choices; ask for the exact profile or Page URL when identity is ambiguous. Confirm the user can publish on the selected Page and verify the composer identity before any upload or submission. Never substitute the personal profile when Page publishing is unavailable. Ask the user to complete sign-in or obtain Page access when required; do not request passwords in chat or store credentials in the repository.
+
+Create and verify each LinkedIn destination independently. If one succeeds and the other fails, retain the successful post's receipt and retry only the failed destination after checking for duplicates. Do not claim a LinkedIn API connection exists: browser posting uses the signed-in session unless an available connected tool actually supports the requested action.
 
 ## Schedule
 
