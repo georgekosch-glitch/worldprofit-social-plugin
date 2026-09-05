@@ -1,6 +1,6 @@
 {
   "name": "worldprofit-social",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Create branded, image-enhanced Worldprofit posts for the Facebook Page and group, X, LinkedIn, and Instagram feed, then publish or schedule them after approval.",
   "author": {
     "name": "Worldprofit",
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "Worldprofit Social",
     "shortDescription": "Create, approve, publish, and schedule branded social posts.",
-    "longDescription": "Drafts Worldprofit posts for the Facebook Page and official group, X, LinkedIn personal profile and company Page, and Instagram feed. Creates supporting images and requires approval before publishing or scheduling each destination.",
+    "longDescription": "Drafts Worldprofit posts for the Facebook Page and official group, X, LinkedIn personal profile and company Page, and Instagram feed. Creates detailed, creative images with readable headlines reflecting each post's message and requires approval before publishing or scheduling each destination.",
     "developerName": "Worldprofit",
     "category": "Marketing",
     "capabilities": [
