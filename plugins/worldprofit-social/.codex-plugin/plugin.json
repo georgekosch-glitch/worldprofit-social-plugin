@@ -1,25 +1,37 @@
 {
   "name": "worldprofit-social",
-  "version": "0.1.0",
-  "description": "Create branded, image-enhanced Worldprofit posts for Facebook and X, then publish or schedule them after approval.",
+  "version": "0.2.0",
+  "description": "Create branded, image-enhanced Worldprofit posts for Facebook, X, and LinkedIn, then publish or schedule them after approval.",
   "author": {
     "name": "Worldprofit",
     "url": "https://worldprofit.com"
   },
   "homepage": "https://worldprofit.com",
   "repository": "https://github.com/georgekosch-glitch/worldprofit-social-plugin",
-  "keywords": ["worldprofit", "social-media", "facebook", "x", "marketing"],
+  "keywords": [
+    "worldprofit",
+    "social-media",
+    "facebook",
+    "x",
+    "marketing",
+    "linkedin"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Worldprofit Social",
     "shortDescription": "Create, approve, publish, and schedule branded social posts.",
-    "longDescription": "Drafts platform-specific Worldprofit posts, creates supporting images, presents an approval package, and only then publishes to Facebook and X or schedules the approved content.",
+    "longDescription": "Drafts platform-specific Worldprofit posts, creates supporting images, presents an approval package, and only then publishes to Facebook, X, and both LinkedIn personal profiles and company Pages or schedules the approved content.",
     "developerName": "Worldprofit",
     "category": "Marketing",
-    "capabilities": ["Content creation", "Image generation", "Approval workflow", "Scheduling"],
+    "capabilities": [
+      "Content creation",
+      "Image generation",
+      "Approval workflow",
+      "Scheduling"
+    ],
     "websiteURL": "https://worldprofit.com",
     "defaultPrompt": [
-      "Create a Worldprofit post for Facebook and X.",
+      "Create Worldprofit posts for Facebook, X, and both my LinkedIn profile and Worldprofit company Page.",
       "Prepare this campaign for approval.",
       "Schedule my approved Worldprofit posts."
     ],
