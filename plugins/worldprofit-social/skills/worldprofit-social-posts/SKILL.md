@@ -48,6 +48,14 @@ After submission, confirm the visible result and report the platform, timestamp,
 
 ## LinkedIn destinations
 
+Saved destinations confirmed by George Kosch:
+
+- Personal profile: https://www.linkedin.com/in/georgekosch
+- Worldprofit company Page: https://www.linkedin.com/company/240475/
+- Company Page admin dashboard: https://www.linkedin.com/company/240475/admin/dashboard/
+
+Use both LinkedIn destinations by default when LinkedIn is requested, unless the user specifies one destination or overrides these URLs. Do not ask the user to provide these URLs again. The admin URL is for managing the Page; use the public Page URL in audience-facing copy. Saved destinations do not authorize publication or establish that the current browser session has Page permissions.
+
 Support both the user's personal profile and the Worldprofit company Page. Reuse confirmed destination choices; ask for the exact profile or Page URL when identity is ambiguous. Confirm the user can publish on the selected Page and verify the composer identity before any upload or submission. Never substitute the personal profile when Page publishing is unavailable. Ask the user to complete sign-in or obtain Page access when required; do not request passwords in chat or store credentials in the repository.
 
 Create and verify each LinkedIn destination independently. If one succeeds and the other fails, retain the successful post's receipt and retry only the failed destination after checking for duplicates. Do not claim a LinkedIn API connection exists: browser posting uses the signed-in session unless an available connected tool actually supports the requested action.
