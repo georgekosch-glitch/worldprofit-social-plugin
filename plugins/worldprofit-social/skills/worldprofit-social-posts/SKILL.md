@@ -11,7 +11,19 @@ Create polished, platform-native social posts while preserving an approval bound
 
 On first use, ask for or inspect the Worldprofit website, logo, brand colors, preferred calls to action, audience, and any compliance rules relevant to the campaign. Reuse confirmed brand facts in later work, but verify details that may have changed. Do not invent product claims, prices, testimonials, results, guarantees, or deadlines.
 
-If brand assets are supplied, use them as references. When no usable visual asset exists, generate an original image aligned with the confirmed brand direction. Do not imitate third-party copyrighted campaigns or place text-heavy copy inside the image.
+If brand assets are supplied, use them as references. Create or adapt an original image aligned with the confirmed brand direction and the creative preferences below. Do not imitate third-party copyrighted campaigns.
+
+## Creative image direction
+
+George's saved preference is for more creative, visually detailed images with wording on the image that expresses the central idea of the post. Apply this by default across the supported destinations unless the user gives a different direction.
+
+Develop a specific visual concept from the post's message: choose a relevant scene or visual metaphor, purposeful supporting details, layered composition, lighting, texture, and brand-aligned colors. Vary concepts across campaigns rather than repeatedly using the same generic business scene. Keep one clear focal point and reserve deliberate space for typography so detail supports the message without obscuring it.
+
+Include a concise, prominent headline on the image that captures the post's main idea. Add a short supporting line or call to action when it helps explain the message. Write the exact wording as part of the image brief; do not simply paste the entire caption onto the artwork. Preserve user-supplied wording when requested. Apply the same factual checks to image text as to captions: do not invent results, guarantees, prices, testimonials, or deadlines.
+
+Use large, high-contrast, clearly readable typography and generous margins suitable for mobile viewing. Adapt the layout and crop for the requested destinations, keeping wording and important subjects within the visible frame. Use supplied logos accurately when appropriate.
+
+Before presenting the approval package, visually inspect the actual generated image, including every word, spelling, punctuation, line breaks, contrast, and cropping. Correct or regenerate misspelled, garbled, clipped, or unreadable text. If exact text cannot be rendered reliably, disclose the issue and offer a corrected design rather than marking it ready. Show the final artwork and separately list its exact headline and supporting wording for review. Include essential on-image wording in meaningful alt text. Image or wording changes after approval require renewed approval under the existing approval boundary.
 
 ## Drafting
 
@@ -30,7 +42,7 @@ For each campaign, prepare an approval package containing:
 - the exact X text;
 - the exact Instagram feed caption when requested;
 - the exact LinkedIn personal-profile and company-Page text, labeled separately when requested;
-- the final image or images and meaningful alt text;
+- the final image or images, their exact on-image wording, and meaningful alt text;
 - destination links and any tracking parameters;
 - the intended accounts;
 - either "publish now" or the proposed date, time, and timezone.
