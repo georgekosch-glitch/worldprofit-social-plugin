@@ -1,7 +1,7 @@
 {
   "name": "worldprofit-social",
-  "version": "0.3.0",
-  "description": "Create branded, image-enhanced Worldprofit posts for Facebook, X, LinkedIn, and Instagram feed, then publish or schedule them after approval.",
+  "version": "0.4.0",
+  "description": "Create branded, image-enhanced Worldprofit posts for the Facebook Page and group, X, LinkedIn, and Instagram feed, then publish or schedule them after approval.",
   "author": {
     "name": "Worldprofit",
     "url": "https://worldprofit.com"
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "Worldprofit Social",
     "shortDescription": "Create, approve, publish, and schedule branded social posts.",
-    "longDescription": "Drafts platform-specific Worldprofit posts, creates supporting images, presents an approval package, and only then publishes to Facebook, X, and both LinkedIn personal profiles and company Pages and Instagram feed posts, or schedules the approved content.",
+    "longDescription": "Drafts Worldprofit posts for the Facebook Page and official group, X, LinkedIn personal profile and company Page, and Instagram feed. Creates supporting images and requires approval before publishing or scheduling each destination.",
     "developerName": "Worldprofit",
     "category": "Marketing",
     "capabilities": [
@@ -32,7 +32,7 @@
     ],
     "websiteURL": "https://worldprofit.com",
     "defaultPrompt": [
-      "Create Worldprofit posts for Facebook, X, and both my LinkedIn profile and Worldprofit company Page, plus the @worldprofit Instagram feed.",
+      "Create Worldprofit posts for our Facebook Page and official group, X, both LinkedIn destinations, and the @worldprofit Instagram feed.",
       "Prepare this campaign for approval.",
       "Schedule my approved Worldprofit posts."
     ],
