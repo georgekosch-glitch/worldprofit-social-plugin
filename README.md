@@ -1,6 +1,6 @@
 # Worldprofit Social Codex Plugin
 
-Create branded, image-enhanced posts for the Worldprofit Facebook page, X account, and LinkedIn personal profile and company Page, plus Instagram feed posts for @worldprofit, with an explicit approval step before publishing or scheduling.
+Create branded, image-enhanced posts for the Worldprofit Facebook page and official group, X account, and LinkedIn personal profile and company Page, plus Instagram feed posts for @worldprofit, with an explicit approval step before publishing or scheduling.
 
 ## Install in Codex
 
@@ -16,3 +16,5 @@ Publishing uses the authenticated Facebook, X, LinkedIn, and Instagram browser s
 The plugin includes the confirmed LinkedIn profile and company Page URLs. Sign in on the posting computer. Company Page posting requires permission to publish as that Page. Each destination is included separately in the approval package.
 
 Instagram uses https://www.instagram.com/worldprofit/ by default, for feed image posts only. Sign into @worldprofit on the posting computer. Stories and Reels are outside the configured scope. Review the caption and final image before approving publication.
+
+The official Facebook group is saved as https://www.facebook.com/groups/worldprofit. Group posts are drafted and approved separately from Page posts. Posting requires an authenticated identity with group access; submissions awaiting moderator approval are reported as pending, not published.
